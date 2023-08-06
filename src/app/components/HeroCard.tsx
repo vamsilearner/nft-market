@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const HeroCard = () => {
   return (
@@ -18,18 +18,31 @@ const HeroCard = () => {
             }}
           />
         </div>
-        <div className="flex flex-col sm:flex-row"> {/* Change to flex-column on small screens and row on larger screens */}
+        <div className="flex flex-col sm:flex-row">
+          {" "}
+          {/* Change to flex-column on small screens and row on larger screens */}
           <div className="mx-auto max-w-2xl">
-            <div className="text-left left-0 py-6 px-4 sm:px-20" style={{ position: "absolute" }}>
+            <div
+              className="text-left left-0 py-6 px-4 sm:px-20"
+              style={{ position: "absolute" }}
+            >
               {/* Heading */}
-              <h1 className="text-3xl sm:text-6xl font-bold tracking-tight" style={{ color: "#fc9803", fontFamily: 'sans-serif' }}>
+              <h1
+                className="text-3xl sm:text-6xl font-bold tracking-tight"
+                style={{ color: "#fc9803", fontFamily: "sans-serif" }}
+              >
                 NFT <br /> MARKETPLACE
               </h1>
               <br />
-              <h1 className="text-3xl sm:text-6xl font-bold tracking-tight" style={{ color: "#e64059" }}>
+              <h1
+                className="text-3xl sm:text-6xl font-bold tracking-tight"
+                style={{ color: "#e64059" }}
+              >
                 BASED ON <br /> KALPTANTRA
               </h1>
-              <div className="mt-10 flex flex-col sm:flex-row items-center gap-4"> {/* Change to flex-column on small screens and row on larger screens */}
+              <div className="mt-10 flex flex-col sm:flex-row items-center gap-4">
+                {" "}
+                {/* Change to flex-column on small screens and row on larger screens */}
                 <a
                   href="#"
                   className="rounded-md px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -46,8 +59,15 @@ const HeroCard = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10 sm:mt-0"> {/* Add margin-top only on small screens */}
-            <img src="/hero.png" alt="hero page" className="h-auto w-full sm:h-100 sm:w-100" /> {/* Use auto height on small screens */}
+          <div className="mt-10 sm:mt-0">
+            {" "}
+            {/* Add margin-top only on small screens */}
+            <img
+              src="/hero.png"
+              alt="hero page"
+              className="h-auto w-full sm:h-100 sm:w-100"
+            />{" "}
+            {/* Use auto height on small screens */}
           </div>
         </div>
         {/* Second gradient overlay */}

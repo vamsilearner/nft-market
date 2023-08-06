@@ -86,9 +86,10 @@ export default function Header() {
               type="text"
               className="bg-gray-100 border border-gray-300 rounded-md pl-10 pr-4 py-2 focus:outline-none focus:ring focus:border-blue-300"
               placeholder="Collections, Item, User"
-            /> <span className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-            <i className="fas fa-search text-gray-400"></i>
-          </span>            
+            />{" "}
+            <span className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <i className="fas fa-search text-gray-400"></i>
+            </span>
           </div>
         </div>
         <div className="flex lg:hidden">
@@ -246,11 +247,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">P2E</span>
-              <img
-                className="h-13 w-auto"
-                src="/logo.png"
-                alt=""
-              />
+              <img className="h-13 w-auto" src="/logo.png" alt="" />
             </a>
             <button
               type="button"

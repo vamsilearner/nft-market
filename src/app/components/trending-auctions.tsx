@@ -38,11 +38,13 @@ const cards = [
 
 const TrendingAuctions = () => {
   return (
-    <section className="py-8 bg-white" style={{ marginLeft: "81px",marginRight: "6px"}}>
+    <section
+      className="py-8 bg-white"
+      style={{ marginLeft: "81px", marginRight: "6px" }}
+    >
       {/* Section Heading */}
       <div className="flex items-center justify-between mb-4 px-6">
-        <h2 className="text-2xl font-bold">Trending Auctions
-        </h2>
+        <h2 className="text-2xl font-bold">Trending Auctions</h2>
         <div className="line h-[1px] bg-gray-500 flex-grow mx-4"></div>
         <div className="flex space-x-2">
           <button className="px-3 py-2 border rounded-full text-gray-500 hover:text-gray-900">

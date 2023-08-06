@@ -58,26 +58,26 @@ const HotCollections = () => {
                       src="/auction2.png"
                       alt="profile logo"
                       className=" rounded-sm"
-                      style={{width: "102px"}}
+                      style={{ width: "102px" }}
                     />
                     <img
                       src="/ram.jpg"
                       alt="profile logo"
                       className="rounded-sm"
-                      style={{width: "65px"}}
+                      style={{ width: "65px" }}
                     />
                     <img
                       src="/auction3.png"
                       alt="profile logo"
                       className=" rounded-sm"
-                      style={{width: "102px"}}
+                      style={{ width: "102px" }}
                     />
                   </div>
                 </div>
-              <div className="space-x-2 text-center">
-                <p className="text-md font-semibold mb-1 p-2">{item.title}</p>
-                <p className="text-sm text-gray-500 p-2">{item.collection}</p>
-              </div>
+                <div className="space-x-2 text-center">
+                  <p className="text-md font-semibold mb-1 p-2">{item.title}</p>
+                  <p className="text-sm text-gray-500 p-2">{item.collection}</p>
+                </div>
               </div>
             </div>
           </>

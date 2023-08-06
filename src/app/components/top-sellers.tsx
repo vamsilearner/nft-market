@@ -2,34 +2,34 @@ import React from "react";
 
 const cards = [
   {
-    img:"/omram.jpg",
+    img: "/omram.jpg",
     name: "@Vamsi",
-    price: "$1,234"
+    price: "$1,234",
   },
   {
-    img:"/omram2.jpg",
+    img: "/omram2.jpg",
     name: "@krishna",
-    price: "$1,567"
+    price: "$1,567",
   },
   {
-    img:"/omram.jpg",
+    img: "/omram.jpg",
     name: "@prasad",
-    price: "$3,679"
+    price: "$3,679",
   },
   {
-    img:"/omram2.jpg",
+    img: "/omram2.jpg",
     name: "@kancharla",
-    price: "$1,987"
+    price: "$1,987",
   },
   {
-    img:"/omram.jpg",
+    img: "/omram.jpg",
     name: "@Vamsi",
-    price: "$1,234"
+    price: "$1,234",
   },
   {
-    img:"/omram2.jpg",
+    img: "/omram2.jpg",
     name: "@krishna",
-    price: "$1,079"
+    price: "$1,079",
   },
 ];
 
@@ -65,11 +65,11 @@ const TopSellers = () => {
             >
               {/* User Logo and Name (Seller) */}
               <div className="items-center space-x-2 mb-2 p-2 text-center">
-                  <img
-                    src={item.img}
-                    alt="profile logo"
-                    className="w-18 h-18 rounded-full"
-                  />
+                <img
+                  src={item.img}
+                  alt="profile logo"
+                  className="w-18 h-18 rounded-full"
+                />
                 <p className="text-md font-semibold mb-1">{item.name}</p>
                 <p className="text-sm text-gray-500">{item.price}</p>
               </div>

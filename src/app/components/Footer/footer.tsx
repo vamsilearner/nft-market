@@ -58,7 +58,10 @@ export default function Footer() {
                 className="bg-gray-100 border border-white rounded-md pl-10 pr-10 py-2 focus:outline-none focus:ring focus:border-blue-300"
                 placeholder="Your Email"
               />
-              <span className="absolute inset-y-0 right-24 flex items-center" style={{marginRight: "50px"}}>
+              <span
+                className="absolute inset-y-0 right-24 flex items-center"
+                style={{ marginRight: "50px" }}
+              >
                 <button
                   className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg p-2 transition-colors"
                   aria-label="Subscribe"

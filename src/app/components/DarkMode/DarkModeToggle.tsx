@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import styles from "./darkModeToggle.module.css";
 
 const DarkModeToggle = () => {
-  const [mode, setMode] = useState("light")
-  const toggle =() => {
+  const [mode, setMode] = useState("light");
+  const toggle = () => {
     setMode("dark");
-  }
+  };
   return (
     <div className={styles.container} onClick={toggle}>
       <div className={styles.icon}>🌙</div>
