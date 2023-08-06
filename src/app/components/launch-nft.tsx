@@ -3,7 +3,7 @@ import React from "react";
 
 const cards = [
   {
-    title: "Buy and Sell your NFT's",
+    title: "Buy and Sell your NFTs",
   },
   {
     title: "Discover Top Artisit & Creators",
