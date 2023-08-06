@@ -1,7 +1,5 @@
-// components/TrendingAuctions.js
 import React from "react";
 import HeartInCircle from "./heart/HeartInCircle";
-import CustomButton from "./CustomButton/CustomButton";
 
 const cards = [
   {
@@ -166,10 +164,6 @@ const MarketPlace = () => {
                 >
                   Place a bid
                 </a>
-                {/* <CustomButton name="Place a bid"/> */}
-                {/* <p className="text-sm text-gray-500">
-                  Ending in <br /> {item.ending}
-                </p> */}
               </div>
             </div>
           </>

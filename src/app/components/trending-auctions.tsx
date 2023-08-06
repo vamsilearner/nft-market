@@ -1,4 +1,3 @@
-// components/TrendingAuctions.js
 import React from "react";
 import HeartInCircle from "./heart/HeartInCircle";
 
