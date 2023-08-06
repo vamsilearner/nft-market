@@ -55,16 +55,17 @@ export default function Footer() {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Your email address"
-                className="bg-blackAlpha-100 border-0 focus:bg-whiteAlpha-300 py-2 pl-4 pr-10 rounded-lg"
+                className="bg-gray-100 border border-white rounded-md pl-10 pr-10 py-2 focus:outline-none focus:ring focus:border-blue-300"
+                placeholder="Your Email"
               />
-              <button
-                className="absolute right-15 top-1/2 transform -translate-y-1/2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg p-2 transition-colors"
-                aria-label="Subscribe"
-                style={{ minWidth: "2rem" }}
-              >
-                Subscribe
-              </button>
+              <span className="absolute inset-y-0 right-24 flex items-center" style={{marginRight: "50px"}}>
+                <button
+                  className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg p-2 transition-colors"
+                  aria-label="Subscribe"
+                >
+                  Subscribe
+                </button>
+              </span>
             </div>
 
             <div className="flex space-x-6 mt-6">
