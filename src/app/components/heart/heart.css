@@ -1,0 +1,17 @@
+/* styles.css */
+/* Customize circle styles as needed */
+.circle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  /* Heart icon styles */
+  .fa-heart {
+    color: red;
+    font-size: 20px;
+  }
+  
